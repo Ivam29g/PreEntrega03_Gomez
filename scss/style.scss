@@ -10,5 +10,10 @@
 }
 
 .item {
-    height: 200px;
+    height: 250px;
+}
+
+.slide {
+    max-height: 850px;
+    overflow: hidden;
 }
