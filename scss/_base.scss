@@ -1,0 +1,38 @@
+$fuente-tipica: sans-serif, Helvetica, Arial;
+$color_fondo: #ccc;
+$color_letra: rgb(33, 33, 33);
+$color_secundario: rgb(23, 21, 33);
+
+body {
+    color: $color_fondo;
+}
+
+p {
+    color: black;
+}
+
+.menu_navegacion a{
+    font-size: 20px;
+    color: white;
+}
+
+.card {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+
+    .cards {
+        justify-content: center;
+        justify-self: center;
+    }
+
+    .card:hover {
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+        transform: translateY(-3%);
+    }
+}
+
+.slide {
+    max-height: 550px;
+    overflow: hidden;
+}

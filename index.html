@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -29,7 +30,8 @@
                     <div class="menu_navegacion col col-xs-12 col-md-12 col-sm-12" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                                <a class="nav-link active" width="550" height="540px" aria-current="page"
+                                    href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./pages/quienes_somos.html">¿Quienes somos?</a>
@@ -74,39 +76,35 @@
             </div>
 
             <section id="content" class="col-12">
-                <div class="row">
-                    <section id="productos" class="col-12 mt-4 text-center">
+                <div class=" row">
+                    <section id="productos" class="cards col-12 mt-4 text-center">
                         <h2>Productos</h2>
-                        <div class="items-img row justify-content-evenly">
-                            <div class="item col-3 bg-ligth border m-4">
+                        <div class="card row bg-light justify-content-evenly">
+                            <div class="card col bg-ligth border m-4">
                                 <img class="imagen1 mt-3" src="./assets/img/lenovo-tablet.png" width="220px"
                                     alt="Tablet lenovo">
-                                <h3>Tablet lenovo</h3>
+                                <h3>Tablets</h3>
                             </div>
-                            <div class="item col-3 bg-light border m-4">
-                                <img class="imagen2 mt-3" src="assets/img/monitor_.jpg" width="200px"
+
+                            <div class="card col bg-light border m-4">
+                                <img class="imagen2 mt-2" src="assets/img/monitor_.jpg" width="200px"
                                     alt="imagen de monitor">
-                                <h3>Monitor HP 1052</h3>
+                                <h3>Monitores</h3>
                             </div>
-                            <div class="item col-3 bg-light m-4">
-                                <img class="imagen2 mt-3" src="./assets/img/pc_03.png" width="200px"
+                            <div class="card col bg-light m-4">
+                                <img class="imagen2 mt-2" src="./assets/img/pc_03.png" width="200px"
                                     alt="Computador gamer">
                                 <h3>Computador gamer</h3>
                             </div>
-                            <div class="item col-3 bg-light m-4">
-                                <img class="imagen2 mt-3" src="./assets/img/pc_04.jpg" width="250px"
+                            <div class="card col bg-light m-4">
+                                <img class="imagen2 mt-2" src="./assets/img/pc_04.jpg" width="250px"
                                     alt="portatil asus gamer">
-                                <h3>Portartil asus</h3>
+                                <h3>Portatiles</h3>
                             </div>
-                            <div class="item col-3 bg-light m-4">
-                                <img class="imagen2 mt-3" src="./assets/img/diadema.webp" width="150px"
+                            <div class="card col bg-light m-4">
+                                <img class="imagen2 mt-2" src="./assets/img/diadema.webp" width="150px"
                                     alt="cascos x-dragon">
-                                <h3>Diademas x-dragón</h3>
-                            </div>
-                            <div class="item col-3 bg-light m-4">
-                                <img class="imagen2 mt-3" src="./assets/img/cascos.webp" width="130px"
-                                    alt="cascos tipo militar">
-                                <h3>Diademas estilo militar</h3>
+                                <h3>Cascos</h3>
                             </div>
                         </div>
                     </section>
@@ -119,81 +117,85 @@
 
         <div class="container justify-content-evenly">
             <h2 class="promociones text-center mt-5">Promociones</h2>
-            <div class="row align-items-start">
+            <div class="cards row align-items-start">
                 <div class="col text-center">
-                    <div class="item bg-light mb-2">
-                       
+                    <div class="card bg-light mb-2">
+
                         <img class="imagen img-fluid text-center" src="./assets/img/pc_01.png" width="200px"
                             height="auto" alt="Computador gamer">
-                            <p class="texto text-center">
-                                Procesador: Intel Celeron J4025 2.0 Ghz (to up 2.9 GHz)
-                                · Memoria: 4GB DDR4
-                                · Almacenamiento: HDD 1TB
-                                · Pantalla: 20.7" (1920 x 1080)
-                                · Sistema Operativo: Linux
-                            </p>
+                        <p class="texto text-center">
+                            Procesador: Intel Celeron J4025 2.0 Ghz (to up 2.9 GHz)
+                            · Memoria: 4GB DDR4
+                            · Almacenamiento: HDD 1TB
+                            · Pantalla: 20.7" (1920 x 1080)
+                            · Sistema Operativo: Linux
+                        </p>
                     </div>
                 </div>
                 <div class="col text-center">
-                    <div class="item bg-light mb-2">
+                    <div class="card bg-light mb-2">
                         <img class="iamgen2 img fluid text-center" src="./assets/img/pc_03.png" width="200px"
                             height="auto" alt="Computador gamer">
-                            <p>
-                                Procesador Ryzen 5 4600g (6 nucleos)
-                                Radeon Graphics
-                                Board b450
-                                Memoria Ram 16Gb
-                                Disco mecánico de 1 tera o SSD de 240. Escoges uno
-                                Fuente J&R de 780
-                                Gabinete con 3 ventiladores LED
-                            </p>
+                        <p>
+                            Procesador Ryzen 5 4600g (6 nucleos)
+                            Radeon Graphics
+                            Board b450
+                            Memoria Ram 16Gb
+                            Disco mecánico de 1 tera o SSD de 240. Escoges uno
+                            Fuente J&R de 780
+                            Gabinete con 3 ventiladores LED
+                        </p>
                     </div>
                 </div>
                 <div class="col text-center">
-                    <div class="item bg-light mb-2">
+                    <div class="card bg-light mb-2">
                         <img src="./assets/img/pc_05.jpg" width="200px" alt="Computador gamer">
-                            <p>
-                                Características:
+                        <p>
+                            Características:
 
-                                Procesador AMD Ryzen 7 5800U
-                                Pantalla 14" FullHD IPS 100% sRGB
-                                Tarjeta gráfica dedicada RTX 3050Ti
-                                16Gb de ram
-                                512Gb SSD NVME
-                                Lector de huellas
-                                Alexa incorporado
-                            </p>
+                            Procesador AMD Ryzen 7 5800U
+                            Pantalla 14" FullHD IPS 100% sRGB
+                            Tarjeta gráfica dedicada RTX 3050Ti
+                            16Gb de ram
+                            512Gb SSD NVME
+                            Lector de huellas
+                            Alexa incorporado
+                        </p>
                     </div>
                 </div>
             </div>
 
             <div class="clearfix">
                 <div class="container mt-2 mb-5 bg-secondary">
-                    <img src="./assets/img/soporte-tecnico-domicilio.jpg" class="col-md-6 float-md-end mt-2 mb-3 ms-md-3"
-                    width="600px" alt="camara de seguridad">
+                    <img src="./assets/img/soporte-tecnico-domicilio.jpg"
+                        class="col-md-6 float-md-end mt-2 mb-3 ms-md-3" width="600px" alt="camara de seguridad">
 
-                <div class="row mt-5">
-                    <h3 class="titulo-software text-center text-white">SOLUCIONAMOS PROBLEMAS CON TU SOFTWARE</h3>
-                <p class="parrafo mt-4 pr-2 pt-4 text-white">
-                    Se realiza mantenimiento y reparación de software de tus computadores. se realiza un diagnostico de
-                    tu equipo para determinar la causa del error y darte la solución mas acertada, sin costos
-                    adicionales.
-                </p>
-                </div>
+                    <div class="row mt-5">
+                        <h3 class="titulo-software text-center text-white">SOLUCIONAMOS PROBLEMAS CON TU SOFTWARE</h3>
+                        <p class="parrafo mt-4 pr-2 pt-4 text-white">
+                            Se realiza mantenimiento y reparación de software de tus computadores. se realiza un
+                            diagnostico de
+                            tu equipo para determinar la causa del error y darte la solución mas acertada, sin costos
+                            adicionales.
+                        </p>
+                    </div>
 
-                <div class="row text-center mt-4">
-                    <h3 class="titulo-hardware text-white">REALIZAMOS MANTENIMIENTO DE HARDWARE</h3>
-                <p class="parrafo mt-4 pr-2 pt-4 text-white">
-                    Servicio de mantenimiento de hardware en el cual se realiza un desarme del computador y se procede a
-                    limpiar el equipo interna y externamente cambiando la pasta térmica la cual se cristaliza y deja de
-                    cumplir su función después de determinado tiempo generando excesos de temperatura en el equipo lo
-                    cual puede llevar a un daño permanente del mismo.
-                </p>
-                </div>
-                
+                    <div class="row text-center mt-4">
+                        <h3 class="titulo-hardware text-white">REALIZAMOS MANTENIMIENTO DE HARDWARE</h3>
+                        <p class="parrafo mt-4 pr-2 pt-4 text-white">
+                            Servicio de mantenimiento de hardware en el cual se realiza un desarme del computador y se
+                            procede a
+                            limpiar el equipo interna y externamente cambiando la pasta térmica la cual se cristaliza y
+                            deja de
+                            cumplir su función después de determinado tiempo generando excesos de temperatura en el
+                            equipo lo
+                            cual puede llevar a un daño permanente del mismo.
+                        </p>
+                    </div>
+
                 </div>
             </div>
-                
+
     </main>
 
     <footer id="footer">

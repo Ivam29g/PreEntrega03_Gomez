@@ -1,19 +1,2 @@
-
-#menu{
-    height: 50px;
-}
-
-#menu ul {
-    text-decoration: none;
-    list-style: none;
-    line-height: 50px;
-}
-
-.item {
-    height: 250px;
-}
-
-.slide {
-    max-height: 850px;
-    overflow: hidden;
-}
+@import "base";
+@import "encabezados";
