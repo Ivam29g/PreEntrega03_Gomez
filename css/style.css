@@ -23,6 +23,10 @@ p {
   max-height: 550px;
   overflow: hidden; }
 
+@media (min-width: 576px) {
+  .cabecera {
+    width: 100%; } }
+
 h1 {
   color: #212121;
   font-family: sans-serif, Helvetica, Arial; }
